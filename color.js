@@ -1,9 +1,9 @@
-var color1=document.getElementById("uno");
-var color2=document.getElementById("deux");
-var bodyy=document.getElementById("bod");
-var hc=document.getElementById("h3");
+let color1=document.getElementById("uno");
+let color2=document.getElementById("deux");
+let bodyy=document.getElementById("bod");
+let hc=document.getElementById("h3");
 
-function changecolor(){
+const changecolor=()=>{
     bodyy.style.background= 
     "linear-gradient(to right, " 
     + color1.value 
